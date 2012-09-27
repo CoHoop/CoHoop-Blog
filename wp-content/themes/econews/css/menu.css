@@ -1,0 +1,173 @@
+.link {
+    height:2em;
+    position:relative;
+    float:left;
+    z-index:10;
+}
+a.main {
+    position:relative;
+    display:inline-block;
+    text-decoration:none;
+    line-height:2em;
+    height:2em;
+    z-index:10;
+}
+a.main b {
+    position:relative;
+    display:inline-block;
+    padding:0 .5em 0 .5em;
+    line-height:2em;
+    cursor:pointer;
+}
+.sublinkscontainer {
+    position:absolute;
+}
+.sublinks {
+    position:relative;
+    float:right;/*can be any float*/
+    margin-top:-2em;
+}
+.sublinks a {
+    display:block;
+
+    padding:.2em 0 .2em 0;
+    text-decoration:none;
+
+}
+.shifter {
+    position:relative;
+    float:right;
+}
+.sublinks .bgthing {
+    height:2em;
+    display:block;
+}
+
+ul, li {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+
+
+
+/*height limit*/
+.link {
+    top:-25em;
+}
+a.main {
+    top:25em;
+}
+a.main:hover, a.main:active, a.main:focus {
+    margin-bottom:25em;
+    outline:none;
+}
+a.main:active b, a.main:focus b {
+    outline: dotted thin;/*resetting the outline*/
+}
+.sublinkscontainer, .shifter {
+    height:25em;
+}
+/*valid browser height maximization*/
+.nav > .link {
+    top:-1000em;
+}
+.link > a.main {
+    top:1000em;
+}
+.link > a.main:hover, .link > a.main:active, .link > a.main:focus {
+    margin-bottom:1000em;
+}
+.link > .sublinkscontainer, .sublinkscontainer > .shifter {
+    height:1000em;
+}
+/*/valid browser height maximization*/
+
+
+/*width limit*/
+.sublinkscontainer {
+    width:12.563em;
+}
+.sublinks a {
+    width:12.5em;/*12.5 - padding*/
+}
+
+
+.sublinks a:hover, .sublinks a:active, .sublinks a:focus {
+    margin-right:0.063em;
+}
+.sublinks:hover a {/*opera fix*/
+    margin-right:0.063em;
+}
+a.main:focus + div .sublinks a, a.main:active + div .sublinks a {/*valid browser tab+hover fix*/
+    margin-right:0;
+}
+
+.shifter {
+    width:0.063em;
+}
+.sublinks .bgthing {
+    width:12.5em;
+}
+
+
+
+.content {
+    clear:both;
+}
+
+
+
+a.main span {/*this nullifies the masks effects*/
+    position:absolute;
+    right:0;
+    top:0;
+    line-height:0;
+}
+a.main span i {/*the mask*/
+    display:block;
+    position:absolute;
+    width:12.5em;
+    background:#efefef;/*must be bg color for masking*/
+    height:2em;
+    top:0;
+    right:auto;
+}
+
+
+
+.hidehotspot {
+    position:relative;
+    float:left;
+    height:2em;
+    z-index:10;
+}
+.hidehotspot b {
+    position:absolute;
+    height:2em;
+    width:56.25em;
+    display:block;
+}
+
+
+/*ie5 fault for not supporting paddings on links*/
+.sublinks a b {
+    font-weight:normal;
+    position:relative;
+    padding-left:.5em;
+    display:block;
+}
+
+/*valid browser height fix*/
+.link > a.main:hover,
+.link > a.main:active,
+.link > a.main:focus {
+    margin-bottom:0;
+}
+.link > a.main:hover + div .sublinks a,
+.link > a.main:active + div .sublinks a,
+.link > a.main:focus + div .sublinks a {
+    margin-right:0.063em;
+}
+/*/valid browser height fix*/

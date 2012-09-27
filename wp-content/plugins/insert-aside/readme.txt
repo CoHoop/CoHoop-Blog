@@ -1,0 +1,40 @@
+=== Insert Callout ===
+Tags: aside
+Requires at least: 3.2.1
+Tested up to: 3.2.1
+Stable tag: 1.0
+Contributors: Joseph B. Ottinger (joeo@enigmastation.com)
+
+Adds a sidebar comment (an inline box that includes commentary text) to a
+post
+
+== Description ==
+
+Often, when a long block of text is being written, secondary content not
+germane to the paragraph in question is relevant, but out of scope of a
+given paragraph.
+
+       For example, this is text explaining that the author is using
+       far too many words to be useful.
+
+This plugin allows users to write [aside]commentary[aside] and have it
+rendered appropriately.
+
+== Installation ==
+
+1. Put the plugin folder into [wordpress_dir]/wp-content/plugins/
+2. Go into the WordPress admin interface and activate the plugin
+3. Go to the options page and configure the plugin
+
+== History ==
+	
+Version 1.0
+	- First release
+
+== Frequently Asked Questions ==
+
+No questions have been asked.
+
+== Screenshots ==
+
+No screenshots are available.
