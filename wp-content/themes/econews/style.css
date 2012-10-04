@@ -45,6 +45,7 @@ h1, h2, h3, h4 {
     margin: 0 0 10px 0;
     font-size: 38px;
     font-weight: normal;
+    font-family: muli, sans-serif;
 }
 
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover {

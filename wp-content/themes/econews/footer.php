@@ -28,6 +28,7 @@
 			<div class="clear"> </div>
 		</div>
 	</div><!-- copyright //-->
-	
+        
+	<script src="http://use.edgefonts.net/muli.js"></script>
 </body>
 </html>
