@@ -518,6 +518,7 @@ blockquote p:after {
     clear: left;
     padding: 12px 0;
     line-height: 2em;
+    font-size: 1.2em;
 }
 
 .post .text a {
@@ -1281,6 +1282,7 @@ dd.tubepress_meta_runtime:hover {
 /* Read more button */
 a.read-more {
     text-decoration: none !important;
+    margin-top: 12px;
 }
 
 /* Hide facebook like box when needed */
