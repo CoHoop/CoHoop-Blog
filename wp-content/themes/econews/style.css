@@ -45,6 +45,7 @@ h1, h2, h3, h4 {
     margin: 0 0 10px 0;
     font-size: 38px;
     font-weight: normal;
+    font-family: muli, sans-serif;
 }
 
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover {
@@ -518,6 +519,7 @@ blockquote p:after {
     clear: left;
     padding: 12px 0;
     line-height: 2em;
+    font-size: 1.2em;
 }
 
 .post .text a {
@@ -1281,6 +1283,7 @@ dd.tubepress_meta_runtime:hover {
 /* Read more button */
 a.read-more {
     text-decoration: none !important;
+    margin-top: 12px;
 }
 
 /* Hide facebook like box when needed */
