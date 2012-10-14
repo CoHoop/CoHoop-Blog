@@ -1,5 +1,5 @@
 
-		<div class="clear  test"> </div>
+		<div class="clear"> </div>
 	</div><!-- main //-->
 	
 	<div id="footer">
