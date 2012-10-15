@@ -1,5 +1,5 @@
 
-		<div class="clear"> </div>
+		<div class="clear opened"> </div>
 	</div><!-- main //-->
 	
 	<div id="footer">
