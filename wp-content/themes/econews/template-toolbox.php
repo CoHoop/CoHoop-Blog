@@ -19,9 +19,8 @@ $args = array(
 query_posts($args);
 ?>
 
-<div id="content">
+<div id="content"><div class="post post-header"><h1><?php the_title(); ?></h1><?phpif (have_posts()) {    the_post();    the_content();}?></div>
     <div id="toolbox" class="post post-full-width">
-        <h1><?php the_title(); ?></h1>
             <?php if (have_posts()) :
                 while (have_posts()) : the_post();
 
