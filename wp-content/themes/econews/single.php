@@ -35,8 +35,7 @@
                 <div class="clear"> </div>
             </div><!-- .text //-->
 
-
-    <?php if (ide_option('post_fullmeta')): ?>
+		<!--Citation Box -->	  <?php if ( get_post_meta($post->ID, 'citation', true) ) : ?>	  	<div class="citation">	          <?php echo get_post_meta($post->ID, 'citation', true) ?>	       </div>	  <?php endif; ?>	  <!-- End Citation box-->    <?php if (ide_option('post_fullmeta')): ?>
                 <ul class="postmetadata">
                     <li>This entry was posted
                         on <?php the_time('l, F jS, Y') ?> at <?php the_time('g:i a') ?>
