@@ -5473,3 +5473,12 @@ a.read-more {
 #faq .fb-like, .post-header .fb-like, .page-id-144 .fb-like {
 	display: none
 }
+.citation{
+	margin-top: 30px;
+	padding: 10px 10px 20px 10px;
+	font-weight: normal;
+	font-size: 1.2em;
+	list-style-type: none;
+	border: 1px solid #eaeaea;
+	font-family: 'Marcellus', serif;
+}
