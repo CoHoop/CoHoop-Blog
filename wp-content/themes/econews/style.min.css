@@ -111,7 +111,7 @@ textarea {
 }
 body {
 	margin: 0;
-	font-family: 'Marcellus', serif;
+	font-family: Arial, sans-serif
 	font-size: 14px;
 	line-height: 20px;
 	color: #333;
@@ -4456,7 +4456,7 @@ body {
 	background-position: top center;
 	margin: 0;
 	padding: 0;
-	font-family: 'Marcellus', serif;
+	font-family: 'PT Serif', serif;
 	font-size: 62.5%;
 	line-height: 20px;
 	color: #666
@@ -4474,19 +4474,20 @@ a img {
 }
 h1, h2, h3, h4 {
 	margin: 0 0 10px 0;
-	font-size: 38px;
 	font-weight: normal;
-	font-family: muli, sans-serif
+	font-family: 'PT Serif', serif;
 }
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover {
 	text-decoration: none
 }
 h1 {
 	letter-spacing: -1px;
-	line-height: 38px;
+	line-height: 1.175em;
 	font-weight: 400;
-	font-size: 3.2em;
+	font-size: 2.2em;
 	line-height: 46px;
+	font-family: 'PT Serif', serif;
+	
 }
 h2 {
 	font-size: 1.8em
