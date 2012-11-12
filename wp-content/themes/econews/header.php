@@ -4,12 +4,10 @@
         <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 
         <title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title>
-
         <meta name="medium" content="blog" />
         <meta name="generator" content="WordPress <?php bloginfo('version'); ?>" />
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/style.min.css" type="text/css" media="screen" />
-        <link href='http://fonts.googleapis.com/css?family=Marcellus' rel='stylesheet' type='text/css'>
-
+        <link href='http://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
         <link rel="icon" href="<?php echo ide_option('favicon_url') ? ide_option('favicon_url') : get_bloginfo('template_url') . '/favicon.ico'; ?>" type="images/x-icon" />
 
 
